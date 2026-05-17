@@ -6,6 +6,7 @@
 
 # Twitch 直播流
 DOMAIN-SUFFIX,live-video.net
+DOMAIN-SUFFIX,restream.io
 
 # POE
 DOMAIN-SUFFIX,poecdn.com
