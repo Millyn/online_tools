@@ -10,3 +10,6 @@ DOMAIN-SUFFIX,restream.io
 
 # POE
 DOMAIN-SUFFIX,poecdn.com
+
+#iRacing
+DOMAIN-SUFFIX,iracing.com
