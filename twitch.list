@@ -11,12 +11,14 @@
 
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,twitchsvc.net
-DOMAIN-KEYWORD,ttvnw
+
+# this is Twitch Stream domain, can direct connect
+#DOMAIN-KEYWORD,ttvnw
+#DOMAIN-SUFFIX,ttvnw.net
 
 #IP-CIDR,103.53.48.0/23,no-resolve
 #IP-CIDR,185.42.204.0/22,no-resolve
