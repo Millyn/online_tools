@@ -4,12 +4,17 @@
 # UPDATED: 
 # PROCESS-NAME: 1
 
-# Twitch 直播流
+# Twitch Up Stream
 DOMAIN-SUFFIX,live-video.net
 DOMAIN-SUFFIX,restream.io
+
+# Twitch View Stream
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-SUFFIX,ttvnw.net
 
 # POE
 DOMAIN-SUFFIX,poecdn.com
 
 #iRacing
 DOMAIN-SUFFIX,iracing.com
+
