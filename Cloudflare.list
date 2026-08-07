@@ -17,3 +17,6 @@ IP-CIDR,104.16.0.0/13,no-resolve
 IP-CIDR,104.24.0.0/14,no-resolve
 IP-CIDR,172.64.0.0/13,no-resolve
 IP-CIDR,131.0.72.0/22,no-resolve
+
+# discord screen share
+IP-ASN,13335,no-resolve
