@@ -1,0 +1,73 @@
+// OMO configuration
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/omo.schema.json",
+  "codegraph": {},
+  "[opencode]": {
+    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/omo.schema.json",
+    "agents": {
+      "general": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "explore": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "sisyphus": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "sisyphus-junior": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      }
+    },
+    "categories": {
+      "quick": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "deep": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "ultrabrain": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "visual-engineering": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "artistry": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "writing": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "unspecified-low": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "unspecified-high": {
+        "model": "opencodex/gpt-5.6-luna",
+        "reasoning": "max"
+      }
+    },
+    "codegraph": {},
+    "team_mode": {
+      "enabled": true,
+      "max_parallel_members": 4,
+      "tmux_visualization": true
+    }
+  },
+  "[codex]": {
+    "codegraph": {}
+  },
+  "_migrations": [
+    "2026-07-opencode-config-unification",
+    "2026-08-reasoning-unification"
+  ]
+}
