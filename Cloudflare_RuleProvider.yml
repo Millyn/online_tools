@@ -1,0 +1,15 @@
+# Mihomo base fragment for Cloudflare TCP/UDP split.
+# Used by ACL4SSR_Online_Full_MPlus.ini through clash_rule_base.
+# Keep the provider name "Cloudflare" in sync with RULE-SET,Cloudflare in the INI.
+#
+# Cloudflare.list is a classical text ruleset containing IP-CIDR entries.
+# This provider is shared by both AND rules (UDP and TCP).
+
+rule-providers:
+  Cloudflare:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/Millyn/online_tools/refs/heads/main/Cloudflare.list
+    path: ./ruleset/Cloudflare.list
+    interval: 86400
